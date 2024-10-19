@@ -115,7 +115,7 @@ function displayOnScreen() {
     operator = "x";
   }
 
-  if (num2 !== "0" || (num2 == 0 && operator != "")) {
+  if (num2 !== "0") {
     displayedText.textContent = num1 + operator + num2;
     // } else if (num1 == "0" && operator != "") {
   } else {
